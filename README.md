@@ -2,20 +2,20 @@
 
 #### Overview
 
-![](pics/Overview.png)
+![](https://github.com/XLab-Tongji/OpenTelemetryStudy/blob/master/pics/Overview.png)
 
 #### API
 
 ##### Propagators API
 
-![](pics/Propagators API.png)
+![](https://github.com/XLab-Tongji/OpenTelemetryStudy/blob/master/pics/Propagators%20API.png)
 
 ##### Tracing API
 
-![](pics/tracing API.png)
+![](https://github.com/XLab-Tongji/OpenTelemetryStudy/blob/master/pics/tracing%20API.png)
 
 #### SDK
 
 ##### Tracing SDK
 
-![](pics/tracing SDK.png)
+![](https://github.com/XLab-Tongji/OpenTelemetryStudy/blob/master/pics/tracing%20SDK.png)
