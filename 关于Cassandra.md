@@ -106,6 +106,16 @@ CASSANDRA_BROADCAST_ADDRESS 此变量用于控制向其他节点播发哪个IP�
 
 CASSANDRA_SEEDS 这个变量是用逗号分隔的IP地址列表，gossip 用来引导加入集群的新节点。
 
+###### cassandra 常用端口
+
+- 7199 - JMX（8080 pre Cassandra 0.8.xx）
+- 7000 - 节点间通信（如果启用了TLS，则不使用）
+- 7001 - TLS节点间通信（使用TLS时使用）
+- 9160 - Thrift客户端API
+- 9042 - CQL本地传输端口
+
+ 在上面的`docker-compose.yaml`中，映射了2个端口。一般只使用9042端口，用来做远程连接。
+
 ###### 创建持久化目录
 
 ```
