@@ -1,3 +1,45 @@
+### /backwards-compatability
+
+分别包含了node8，node10，node12的向后兼容文件。每个版本的文件结构如下：
+
+```
+./
+├── index.ts
+└── package.json
+```
+
+### /benchmark
+
+如何运行benchmark，以及运行的结果
+
+### /doc
+
+api文档及指导说明文档
+
+```
+./
+├── batcher-api.md
+└── development-guide.md
+└── exporter-guide.md
+└── plugin-guide.md
+```
+
+### /examples
+
+这个目录包含了一些例子，告诉我们如何使用OpenTelemetry JS运行真实的应用程序。
+
+| Name                                                         | Description                                                  | Complexity Level |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---------------- |
+| [basic-tracer-node](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/basic-tracer-node) | 在Node.js应用中跟踪的基本使用方法                            | Beginner         |
+| [tracer-web](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/tracer-web) | 应用程序中跟踪的基本使用方法                                 | Beginner         |
+| [prometheus](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/prometheus) | 普罗米修斯的基本Metric使用                                   | Beginner         |
+| [http](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/http) | HTTP instrument自动收集跟踪数据，并将其导出到所选的后端      | Intermediate     |
+| [https](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/https) | HTTPS instrument自动收集跟踪数据，并将其导出到所选的后端     | Intermediate     |
+| [grpc](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/grpc) | gRPC instrument自动收集跟踪数据，并将其导出到所选的后端      | Intermediate     |
+| [express](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/express) | Express Instrumentation 可自动收集跟踪数据并将其导出到所选的后端 | Intermediate     |
+| [collector-exporter-node](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/collector-exporter-node) | 如何使用@opentelemetry/exporter-collector来工具一个简单的Node.js应用 | Intermediate     |
+| [opentracing-shim](https://github.com/open-telemetry/opentelemetry-js/blob/master/examples/opentracing-shim) | 如何将现有的OpenTracing仪器与OpenTelemetry Intermediate集成  | Intermediate     |
+
 ### /getting-started
 
 开始使用OpenTelemetry JS。
